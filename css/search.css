@@ -1,0 +1,32 @@
+.search-bar {
+  align-items: center;
+  background-color: var(--background-primary);
+  display: flex;
+  flex-direction: column;
+  height: 844px;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+}
+
+.search-bar .main {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  height: 1250px;
+  padding: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.search-bar .input-field-instance {
+  flex: 0 0 auto !important;
+}
+
+.search-bar .search-line {
+  height: 18px !important;
+  position: relative !important;
+  width: 18px !important;
+}

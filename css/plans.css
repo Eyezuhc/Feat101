@@ -1,0 +1,54 @@
+.plans {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 844px;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+}
+
+.plans .frame-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  height: 952px;
+  position: relative;
+  width: 100%;
+}
+
+.plans .frame-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 812px;
+  padding: 4px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.plans .account-button-2 {
+  color: var(--text-primary) !important;
+}
+
+.plans .account-button-3 {
+  align-self: stretch !important;
+  background-color: unset !important;
+  background-image: url(./account-button.png) !important;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  height: 100px !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+.plans .notebook-instance {
+  background-image: url(./image.png) !important;
+  height: 45px !important;
+  position: relative !important;
+  width: 45px !important;
+}

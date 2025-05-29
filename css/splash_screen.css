@@ -1,0 +1,83 @@
+.splash-screen {
+  align-items: center;
+  background-color: var(--background-primary);
+  display: flex;
+  flex-direction: column;
+  gap: 224px;
+  overflow: hidden;
+  padding: 10px 25px 34px 24px;
+  position: relative;
+}
+
+.splash-screen .status-bar-iphone-instance {
+  align-items: center !important;
+  height: 20px !important;
+  justify-content: space-around !important;
+  margin-left: -25.50px !important;
+  margin-right: -25.50px !important;
+  width: 392px !important;
+}
+
+.splash-screen .design-component-instance-node {
+  margin-bottom: -11.50px !important;
+  margin-top: -11.50px !important;
+}
+
+.splash-screen .div {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 219px;
+}
+
+.splash-screen .image {
+  height: 150px;
+  object-fit: cover;
+  position: relative;
+  width: 150px;
+}
+
+.splash-screen .text-wrapper-2 {
+  align-self: stretch;
+  color: var(--text-primary);
+  font-family: var(--heading-lg-font-family);
+  font-size: var(--heading-lg-font-size);
+  font-style: var(--heading-lg-font-style);
+  font-weight: var(--heading-lg-font-weight);
+  letter-spacing: var(--heading-lg-letter-spacing);
+  line-height: var(--heading-lg-line-height);
+  position: relative;
+  text-align: center;
+}
+
+.splash-screen .text-wrapper-3 {
+  align-self: stretch;
+  color: var(--brand-color);
+  font-family: var(--body-lg-font-family);
+  font-size: var(--body-lg-font-size);
+  font-style: var(--body-lg-font-style);
+  font-weight: var(--body-lg-font-weight);
+  letter-spacing: var(--body-lg-letter-spacing);
+  line-height: var(--body-lg-line-height);
+  position: relative;
+  text-align: center;
+}
+
+.splash-screen .frame-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 9px;
+  position: relative;
+  width: 100%;
+}
+
+.splash-screen .button-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}

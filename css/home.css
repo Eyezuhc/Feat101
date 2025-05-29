@@ -1,0 +1,22 @@
+.home-screen {
+  align-items: center;
+  background-color: var(--background-primary);
+  display: flex;
+  flex-direction: column;
+  height: 844px;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+}
+
+.home-screen .frame-12 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 1157px;
+  padding: 16px;
+  position: relative;
+  width: 100%;
+}

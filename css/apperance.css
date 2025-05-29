@@ -1,0 +1,199 @@
+.account {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 844px;
+    overflow: hidden;
+    position: relative;
+}
+
+.account .main {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    height: 760px;
+    padding: 16px;
+    position: relative;
+    width: 100%;
+}
+
+.account .top-bar {
+    align-items: center;
+    background-color: var(--background-primary);
+    border-bottom: 1px solid var(--border-secondary);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 72px;
+    justify-content: flex-end;
+    margin-left: -16px;
+    margin-right: -16px;
+    position: relative;
+    width: 390px;
+}
+
+.account .status-bar-iphone-instance {
+    align-items: center !important;
+    justify-content: space-around !important;
+    margin-left: -1.00px !important;
+    margin-right: -1.00px !important;
+    margin-top: -21.00px !important;
+    width: 392px !important;
+}
+
+.account .text-wrapper-2 {
+    color: var(--text-primary);
+    font-family: var(--heading-md-font-family);
+    font-size: var(--heading-md-font-size);
+    font-style: var(--heading-md-font-style);
+    font-weight: var(--heading-md-font-weight);
+    letter-spacing: var(--heading-md-letter-spacing);
+    line-height: var(--heading-md-line-height);
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.account .account-buttons {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 674px;
+    margin-bottom: -25px;
+    position: relative;
+    width: 100%;
+}
+
+.account .account-button-2 {
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--brand-color);
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    gap: 10px;
+    height: 75px;
+    overflow: hidden;
+    padding: 10px 14px;
+    position: relative;
+    width: 100%;
+}
+
+.account .account-circle-line-wrapper {
+    background-image: url(./account-circle-line.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 80px;
+    height: 45px;
+    position: relative;
+    width: 45px;
+}
+
+.account .my-button-2 {
+    color: var(--text-on-color);
+    font-family: var(--body-lg-font-family);
+    font-size: var(--body-lg-font-size);
+    font-style: var(--body-lg-font-style);
+    font-weight: var(--body-lg-font-weight);
+    letter-spacing: var(--body-lg-letter-spacing);
+    line-height: var(--body-lg-line-height);
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.account .frame-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    gap: 221px;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+.account .frame-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+.account .account-button-instance {
+    align-self: stretch !important;
+    border-radius: unset !important;
+    overflow: unset !important;
+    width: 100% !important;
+}
+
+.account .icon-instance-node-2 {
+    height: 45px !important;
+    margin-top: -2.50px !important;
+    margin-bottom: -2.50px !important;
+    position: relative !important;
+    width: 45px !important;
+}
+
+.account .account-button-3 {
+    align-self: stretch !important;
+    border-radius: 0px 0px 10px 10px !important;
+    width: 100% !important;
+}
+
+.account .account-circle-line-2 {
+    background-image: url(./information-line.svg) !important;
+    margin-bottom: -2.50px !important;
+    margin-top: -2.50px !important;
+    position: relative !important;
+}
+
+.account .button-instance {
+    align-self: stretch !important;
+    flex: 0 0 auto !important;
+    width: 100% !important;
+}
+
+.account .button-2 {
+    font-family: var(--body-lg-font-family) !important;
+    font-size: var(--body-lg-font-size) !important;
+    font-style: var(--body-lg-font-style) !important;
+    font-weight: var(--body-lg-font-weight) !important;
+    letter-spacing: var(--body-lg-letter-spacing) !important;
+    line-height: var(--body-lg-line-height) !important;
+    white-space: unset !important;
+}
+
+.account .button-wrapper {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.account .button-3 {
+    border: unset !important;
+    border-top-width: 1px !important;
+    border-top-style: solid !important;
+    height: 70px !important;
+    position: relative !important;
+}
+
+.account .size-48-2 {
+    height: 32px !important;
+    left: 8px !important;
+    position: absolute !important;
+    top: 15px !important;
+    width: 32px !important;
+}
